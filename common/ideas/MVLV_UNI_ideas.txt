@@ -1,0 +1,94 @@
+ideas = {
+
+	country ={
+		#default national spirits
+		UNI_refugees_problem_0 = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.3
+			 }
+		}
+		UNI_low_influence = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		UNI_seculity_council = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				stability_factor = 0.15
+			}
+			research_bonus = {
+				land_doctorine = 0.05
+			}
+		}
+		UNI_global_food_crisis = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+
+
+		UNI_improve_refugee_camp= {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				consumer_goods_factor = 0.2
+			 }
+		}
+		UNI_refugees_problem_1 = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.05
+			}
+		}
+		UNI_refugee_volunteers_idea = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			#available
+			#visible
+			removal_cost = -1
+			#cost
+			cancel = { }
+
+			modifier = { 
+				army_org_factor = -0.05
+				army_morale_factor = 0.1
+			}
+			#equipment_bonus
+			#research_bonus
+			#traits
+			#on_add
+			#designer
+			#ai_will_do
+		}
+	}
+}

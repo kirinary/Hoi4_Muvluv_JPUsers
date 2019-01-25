@@ -1,0 +1,20 @@
+﻿add_namespace = BETA
+
+# kaisi
+
+country_event = {
+	id = BETA.1
+	desc = BETA.1.d
+	title = BETA.1.t
+	picture = BETA_event_1
+	fire_only_once = yes
+	trigger = {
+		tag = BET
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option ={
+		name = BETA.1.a
+	}
+}

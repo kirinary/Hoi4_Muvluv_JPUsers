@@ -1,0 +1,630 @@
+﻿division_template = {
+	name = "Hohei Shidan"		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+	
+##### OOB #####	
+units = {	
+
+    ####### NAVAL UNITS #######
+	##### PACIFIC FLEET #####
+	navy = {
+		name = "UN Pacific Fleet" #Taiwan
+		base = 12068
+		location = 12068
+		### Battleship Division 1
+		ship = { name = "USS アイオワ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ニュージャージー" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ミズーリ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### Battleship Division 2
+		ship = { name = "USS イリノイ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ケンタッキー" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊勢" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 1
+		ship = { name = "USS サーチャー" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS スコッツマン" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 2
+		ship = { name = "IJN 酒匂" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ロアノーク" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = UNI } } }
+		### 1st Destroyer Squadron
+		ship = { name = "USS ウースター " definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 1
+		ship = { name = "USS バリー" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS フォレスト・シャーマン" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS プレブル" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS デューイ" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 2
+		ship = { name = "USS ウィリアム・V・プラット" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ダールグレン" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS マハン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS キング" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 3
+		ship = { name = "USS クーンツ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS マクドノー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ルース" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ファラガット" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		# Destroyer Division 4
+		ship = { name = "USS ウィルキンソン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ウィリス・A・リー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ジョン・S・マッケーン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ミッチャー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		### 2nd Destroyer Squadron
+		ship = { name = "IJN 矢矧" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 5
+		ship = { name = "IJN 初雪" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 白雪" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 峰雪" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 浜雪" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		# Destroyer Division 6
+		ship = { name = "IJN 磯雪" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 沢霧" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 朝霧" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 浜霧" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 7
+		ship = { name = "IJN 夕霧" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 海霧" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 天霧" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 山霧" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 14
+		ship = { name = "IJN 春雪" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 山雪" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 島雪" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 松雪" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+    }
+	navy = {
+	    name = "7th Fleet" 
+		base = 4180
+		location = 4180 # Pearl Harbor
+		### Battleship Division 3
+		ship = { name = "USS ユタ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS フロリダ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ノースダコタ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS デラウェア " definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 3
+		ship = { name = "IJN 青葉" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 衣笠" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 4
+		ship = { name = "IJN 天龍" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 龍田" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		### 3rd Destroyer Squadron
+		ship = { name = "USS タイラント" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 8
+		ship = { name = "USS ターナー・ジョイ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS リチャード・S・エドワーズ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS モートン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS エドソン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 9
+		ship = { name = "USS ハル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS マリニクス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ブランディ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ビゲロー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 10
+		ship = { name = "USS デュポン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS マンリー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ジョナス・イングラム" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS デイヴィス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		### 4th Destroyer Squadron
+		ship = { name = "IJN 大井" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 11
+		ship = { name = "IJN 谷風" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN ゴールズボロ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+        ship = { name = "IJN 磯風" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 夏雲" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 12
+		ship = { name = "IJN 萩風" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 秋雲" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }	
+		ship = { name = "IJN 時津風" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 玉波" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }	
+		# Destroyer Division 13
+		ship = { name = "USS トバゴー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ヴォアティガーン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ヴィヴァシアス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ヴィデット" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	}
+	navy = {
+		name = "9th Fleet" #Sydney
+		base = 12406
+		location = 12406
+		ship = { name = "HMAS シドニー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# 4th Submarine Division
+		ship = { name = "IJN 伊12" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊13" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊14" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊15" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+	}
+	navy = {
+	    name = "10th Fleet" #Singapore
+		base = 12299
+		location = 12299
+		### Battleship Division 4
+		ship = { name = "IJN 日向" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ニューハンプシャー" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS アイダホ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 5
+		ship = { name = "IJN 加古" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 阿賀野" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		### 5th Destroyer Squadron
+		ship = { name = "IJN 大淀" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 15
+		ship = { name = "USS クロード・V・リケッツ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ローレンス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ジョン・キング" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS チャールズ・F・アダムズ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 16
+		ship = { name = "USS パーソンズ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS サマーズ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ディケーター" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ジョン・ポール・ジョーンズ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 17
+		ship = { name = "IJN 朝霜" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 沖波" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 天津風" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 高波" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+        # Destroyer Division 18
+		ship = { name = "IJN 漣" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 鈴波" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 不知火" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 旭日" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+	}
+	navy = {
+		name = "11th Fleet" #Yokosuka
+		base = 9998
+		location = 9998
+		### Cruiser Division 6
+		ship = { name = "IJN 鳥海" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 熊野" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 鈴谷" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 摩耶" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 愛宕" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 高雄" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		### 6th Destroyer Squadron
+		ship = { name = "IJN 北上" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 18
+		ship = { name = "USS カニンガム" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ジョセフ・ストラウス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS バークレイ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ブキャナン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 19
+		ship = { name = "USS ホーエル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ロビソン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	    ship = { name = "USS セラーズ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	    ship = { name = "USS サンプソン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 20
+		ship = { name = "USS タワーズ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ラインド・マコーミック" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ヘンリー・B・ウィルソン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS バーニー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		### 7th Destroyer Squadron
+		ship = { name = "IJN 阿武隈" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }		
+		# Destroyer Division 21
+		ship = { name = "IJN 曙" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 有明" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	    ship = { name = "IJN 雷" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	    ship = { name = "IJN 五月雨" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 22
+		ship = { name = "IJN 電" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 霧雨" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 夕立" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 春雨" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 23
+		ship = { name = "IJN 村雨" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 高波" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	    ship = { name = "IJN 大波" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	    ship = { name = "IJN 巻波" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	}
+	### PACIFIC SUBMARINES ###
+	navy = {							
+		name = "1st Submarine Squadron"		
+		base = 12299
+		location = 12299 #Singapore
+		# 1st Submarine Division
+		ship = { name = "USS イール " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS タイルー" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS スティックルバック" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS エスパダ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 2nd Submarine Division
+		ship = { name = "IJN 伊16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊17" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊18" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊19" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		# 3rd Submarine Division
+		ship = { name = "IJN 伊20" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊21" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊22" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "IJN 伊23" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+	}
+	navy = {							
+		name = "6th Submarine Squadron"		
+		base = 9671
+		location = 9671 #San Francisco
+		# 5th Submarine Division
+		ship = { name = "USS エスパダ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ジョウフィッシュ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ナーカ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ゴールドリング" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 6th Submarine Division
+		ship = { name = "USS テンチ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ソーンバック " definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ティグラン " definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS タイラント " definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		# 7th Submarine Division
+		ship = { name = "USS トースク" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS トーロー" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS イルバック " definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS トランペットフィッシュ" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+	}
+	
+	
+	##### ATLANTIC FLEET #####
+	navy = {
+		name = "UN Atlantic Fleet" #UNHQ
+		base = 3878
+		location = 3878
+		### Battleship Division 4
+		ship = { name = "USS アイオワ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ニュージャージー" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ミズーリ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS イリノイ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 7
+		ship = { name = "USS ポートランド" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS インディアナポリス" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 8
+		ship = { name = "USS チェスター " definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS バーミングハム" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = UNI } } }
+		### 8th Destroyer Squadron
+		ship = { name = "USS コンステレーション" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 24
+		ship = { name = "USS ハリー・W・ヒル" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS カッシング" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ニコルソン" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ジョン・ハンコック" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 25
+		ship = { name = "USS ムースブラッガー" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS コノリー" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS スタンプ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ブリスコー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 26
+		ship = { name = "USS メリル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS オブライエン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS コムト・ド・グラース" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ジョン・ヤング" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		# Destroyer Division 27
+		ship = { name = "USS オルデンドルフ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS デイヴィッド・R・レイ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS カロン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ピーターソン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		### 9th Destroyer Squadron
+		ship = { name = "USS インデペンデンス" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 28
+		ship = { name = "USS アーサー・W・ラドフォード" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS エリオット" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		ship = { name = "USS ヒューイット" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS キンケイド" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 29
+		ship = { name = "USS ポール・F・フォスター" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS スプルーアンス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		ship = { name = "USS ウオッデル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS リチャード・E・バード" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 30
+		ship = { name = "USS ベンジャミン・ストッダート" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ゴールズボロ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS タットノール" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS セムズ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+    }
+	navy = {
+	    name = "5th Fleet" #Miami
+		base = 1843
+		location = 1843
+		### Battleship Division 9
+		ship = { name = "USS ウェストバージニア" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 9
+		ship = { name = "USS ケンブリッジ" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS スクラントン" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		### 10th Destroyer Squadron
+		ship = { name = "USS エリー" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 31
+		ship = { name = "USS オバノン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ソーン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS デヨ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS インガソル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 32
+		ship = { name = "USS ファイフ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS フレッチャー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ヘイラー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS キッド" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	}
+	navy = {
+	    name = "6th Fleet" #Norfolk
+		base = 788
+		location = 788
+		### Battleship Division 8
+		ship = { name = "USS インディアナ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS サウスダコタ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### 11th Destroyer Squadron
+		ship = { name = "USS ラトルスネーク" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 33
+		ship = { name = "USS カラハン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS スコット" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS チャンドラー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ロバート・A・オーエンス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 34
+		ship = { name = "USS カーペンター" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS シーマン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS アブナー・リード" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS シーモア・D・オーエンス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 35
+		ship = { name = "USS ランスデイル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ウッドロー・R・トンプソン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS カースル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS メレディス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	}
+	### ATLANTIC SUBMARINES ###
+	navy = {							
+		name = "2nd Submarine Squadron"		
+		base = 7617
+		location = 7617 #Canal Zone
+		# 8th Submarine Division
+		ship = { name = "USS ディアブロ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ランナー " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ラゴ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS アイレックス " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 9th Submarine Division
+		ship = { name = "USS スピナックス " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS サーダ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ヴォラドア " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS アンバージャック " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 10th Submarine Division
+		ship = { name = "USS ピカレル " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS グレナディア " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ウルア " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ウォールラス" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+	}
+	navy = {							
+		name = "8th Submarine Squadron"		
+		base = 788
+		location = 788 # Norfolk
+		# 11th Submarine Division
+		ship = { name = "USS ホワイティング" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ウルフフィッシュ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ユニ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ニードルフィッシュ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 12th Submarine Division
+		ship = { name = "USS ピン " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ダラドー " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS カンバー " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS パンサー " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 13th Submarine Division
+		ship = { name = "USS ティブロン " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS バラクーダ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS バス " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ボニタ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+	}
+	
+	##### EUROPIAN FLEET #####
+	navy = {				
+		name = "UN Europian Fleet"
+		base = 3501
+		location = 3501 # Dover
+		### Battleship Division 5
+		ship = { name = "HMS サンダラー" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS コンカラー" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ヴァンガード" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS テメレーア" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "VM カール・マルクス" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "VM エンゲルス" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 10
+		ship = { name = "HMS デヴォンシャー" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS インディファティガブル" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 11
+		ship = { name = "HMS ホーク" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ネプチューン" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		### 12th Destroyer Squadron
+		ship = { name = "HMS マーズ" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 36
+		ship = { name = "USS ファース" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ニューマン・K・ペリー" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS フロイド・B・パークス" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ジョン・R・クレイグ" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 37
+		ship = { name = "USS オーレック" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ブリンクレイ・バス" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ステイッケル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS オヘーア" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 38
+		ship = { name = "HMS ロンドン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ファイフ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アントリム" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS グラモーガン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		### 13th Destroyer Squadron
+		ship = { name = "HMS エドガー" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 39
+		ship = { name = "HMS シェフィールド" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS バーミンガム" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS カーディフ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS コヴェントリー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 40
+		ship = { name = "HMS ニューカッスル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS グラスゴー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		ship = { name = "HMS エクセター" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS サウサンプトン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 41
+		ship = { name = "HMS ノッティンガム" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ヨーク" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		ship = { name = "HMS ブリストル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ノーフォーク" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	}
+	### EUROPIAN SUBMARINES ###
+	navy = {							
+		name = "3rd Submarine Squadron"		
+		base = 11064 
+		location = 11064 # Scapa Flow
+		# 14th Submarine Division
+		ship = { name = "HMS タクティシャン" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アトモースト" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アプロー" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アルズウォーター" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 15th Submarine Division
+		ship = { name = "HMS アンテイムド" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ヴァーン" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アップスタート" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ユーサ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 16th Submarine Division
+		ship = { name = "USS マッケレル " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS マーリン " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS タング " definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS トリガー " definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+	}
+	navy = {							
+		name = "5th Submarine Squadron"		
+		base = 3311 
+		location = 3311 # Man
+		# 17th Submarine Division
+		ship = { name = "HMS ヴァイキング" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アラリック" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アドヴァーサリー" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アスターチ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 18th Submarine Division
+		ship = { name = "HMS アズテック" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アバラード" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アグレッサー" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS シーライオン" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 19th Submarine Division
+		ship = { name = "USS ワフー" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS トラウト " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ガジョン" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ハーダー " definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+	}
+	navy = {							
+		name = "7sh Submarine Squadron"		
+		base = 11773 
+		location = 11773 
+		# 20th Submarine Division
+		ship = { name = "HMS エクスプローラー" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS エクスカリバー" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ポーパス" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ロークウァル" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 21st Submarine Division
+		ship = { name = "HMS ナーワル" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ランパス" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS カシャラット" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ウォールラス" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 22nd Submarine Division
+		ship = { name = "USS サーモン " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS セイルフィッシュ " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ダーター " definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS グレイバック " definition = submarine equipment = { submarine_2 = { amount = 1 owner = UNI } } }
+	}
+	
+	##### MEDITERRANIAN FLEET #####
+	navy = {				
+		name = "UN Mediterrantian Fleet"
+		base = 4076
+		location = 4076 # Alexandria
+		### Battleship Division 6
+		ship = { name = "USS ワシントン" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS サウスダコタ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ハウ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アンソン" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 12
+		ship = { name = "HMS ケンブリッジ" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS スクラントン" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 13
+		ship = { name = "HMS カレイジャス" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS フューリアス" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		### 14th Destroyer Squadron
+		ship = { name = "HMS センチュリオン" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 42
+		ship = { name = "USS フェクテラー" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ダメイト" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS フォレスト・ロイアル" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ホーキンス" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 43
+		ship = { name = "USS ダンカン" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ヘンリー・W・タッカー" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ロジャース" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS パーキンス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 44
+		ship = { name = "USS ヴェゾール" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS リアリー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ダイス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ボーデロン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		### 15th Destroyer Squadron
+		ship = { name = "HMS マイノトー" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 45
+		ship = { name = "HMS スピアー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS デインティ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS デアリング" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS デコイ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 46
+		ship = { name = "HMS ディフェンダー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ライト" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		ship = { name = "HMS ダイアモンド" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ダイアナ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 47
+		ship = { name = "HMS ダッチェス" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ノンサッチ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }		
+		ship = { name = "HMS デヴォンシャー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ハンプシャー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	}
+	### MEDITERRANIAN SUBMARINES ###
+	navy = {							
+		name = "4th Submarine Squadron"		
+		base = 4076
+		location = 4076 # Alexandria
+		# 23rd Submarine Division
+		ship = { name = "HMS オベロン" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS オーディン" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS オリンパス" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS オーフュース" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 24th Submarine Division
+		ship = { name = "HMS オラクル" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS オニクス" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アップホルダー" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS アンシーン" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		# 25th Submarine Division
+		ship = { name = "USS グラウラー" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS バーベル " definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ブルーバック" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ボーンフィッシュ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UNI } } }
+	}
+	
+	##### AFRICAN FLEET #####
+	navy = {
+	    name = "4th Fleet" 
+		base = 5222
+		location = 5222
+		### Battleship Division 7
+		ship = { name = "USS アラバマ" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UNI } } }
+		### Cruiser Division 14
+		ship = { name = "HMS ドーセットシャー" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "HMS ノーフォーク" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNI } } }
+		### 16th Destroyer Squadron
+		ship = { name = "HMS ブレイク" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 48
+		ship = { name = "USS ヴォーゲルゲザング" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS スタイネイカー" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ハロルド・J・エリソン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS チャールズ・R・ウェア" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		# Destroyer Division 49
+		ship = { name = "USS コーン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ストライブリング" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS ブラウンソン" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+		ship = { name = "USS アーノルド・J・イズベル" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNI } } }
+	}
+}
+
+

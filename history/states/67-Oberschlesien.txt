@@ -1,0 +1,27 @@
+
+state={
+	id=67
+	name="STATE_67"
+	manpower = 1402591
+	resources={
+		steel=19 # was: 60
+		aluminium=6 # was: 20
+	}
+	
+	state_category = city
+
+	history = { 1999.1.1 = { 
+			owner = BET
+			remove_core_of = BET
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		479 6512 9457 9511 11467 
+	}
+}

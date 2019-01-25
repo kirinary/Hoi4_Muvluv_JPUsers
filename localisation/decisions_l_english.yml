@@ -1,0 +1,12 @@
+﻿l_english:
+ DECISIONVIEW_TITLE:0 "イベントとディシジョン"
+ DECISIONSVIEW_EVENT_HEADER:0 "イベント"
+ POPUP_NEWS:0 "ニュースポップアップ"
+ POPUP_EVENTS:0 "イベントポップアップ"
+ CATEGORY_COLLAPSE_DESC:0 "§Gクリック§!で折りたたむ"
+ CATEGORY_EXPAND_DESC:0 "§Gクリック§!で展開する"
+ DECISION_KEEP_NOTIFIED:1 "§H通知§!\n\nここを§Gクリック§! して このディシジョンが実行可能なときに§R通知しない§! ように設定する。 \n"
+ DECISION_NOT_KEEP_NOTIFIED:1 "§H通知§!\n\nここを§Gクリック§! して このディシジョンが実行可能なときに§R通知する§! ように設定する。 \n"
+ TAKE_DECISION_HEADER:0 "§Hディシジョンを実行する§!\n\n"
+ DECISION_COST_DESC:0 "このディシジョンを実行するには £pol_power $VAL|H0$ が必要です"
+ DECISION_COST_NOT_ENOUGH:0 "このディシジョンを実行するには £pol_power $VAL|HR0$ が必要です"

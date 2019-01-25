@@ -1,0 +1,93 @@
+
+state={
+	id=351
+	name="STATE_351" # Vologda
+	manpower = 2352100
+	
+	state_category = town
+
+	history = { 1999.1.1 = { 
+			owner = BET
+			remove_core_of = BET
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+                        23 = { bunker = 10 } 
+                        60 = { bunker = 10 } 
+                        75 = { bunker = 10 } 
+                        81 = { bunker = 10 } 
+                        84 = { bunker = 10 }
+                        106 = { bunker = 10 } 
+                        129 = { bunker = 10 } 
+                        135 = { bunker = 10 } 
+                        143 = { bunker = 10 } 
+                        160 = { bunker = 10 } 
+                        163 = { bunker = 10 } 
+                        166 = { bunker = 10 } 
+                        174 = { bunker = 10 } 
+                        196 = { bunker = 10 } 
+                        2996 = { bunker = 10 } 
+                        3056 = { bunker = 10 } 
+                        3057 = { bunker = 10 } 
+                        3079 = { bunker = 10 } 
+                        3087 = { bunker = 10 } 
+                        3091 = { bunker = 10 } 
+                        3099 = { bunker = 10 } 
+                        3124 = { bunker = 10 }
+                        3135 = { bunker = 10 } 
+                        3154 = { bunker = 10 } 
+                        3157 = { bunker = 10 } 
+                        3160 = { bunker = 10 } 
+                        3164 = { bunker = 10 }
+                        3175 = { bunker = 10 } 
+                        6017 = { bunker = 10 } 
+                        6073 = { bunker = 10 } 
+                        6077 = { bunker = 10 } 
+                        6091 = { bunker = 10 } 
+                        6097 = { bunker = 10 } 
+                        6112 = { bunker = 10 } 
+                        6113 = { bunker = 10 } 
+                        6119 = { bunker = 10 }
+                        6158 = { bunker = 10 }
+                        6180 = { bunker = 10 } 
+                        6182 = { bunker = 10 } 
+                        6189 = { bunker = 10 } 
+                        6190 = { bunker = 10 } 
+                        9043 = { bunker = 10 } 
+                        9102 = { bunker = 10 } 
+                        9110 = { bunker = 10 }
+                        9113 = { bunker = 10 }
+                        9131 = { bunker = 10 }
+                        9133 = { bunker = 10 } 
+                        9136 = { bunker = 10 }
+                        9168 = { bunker = 10 } 
+                        9199 = { bunker = 10 } 
+                        9200 = { bunker = 10 }
+                        9202 = { bunker = 10 }
+                        9207 = { bunker = 10 }
+                        9210 = { bunker = 10 }
+                        9222 = { bunker = 10 }
+                        11027 = { bunker = 10 } 
+                        11035 = { bunker = 10 } 
+                        11036 = { bunker = 10 } 
+                        11062 = { bunker = 10 } 
+                        11075 = { bunker = 10 }
+                        11086 = { bunker = 10 }
+                        11095 = { bunker = 10 }
+                        11103 = { bunker = 10 }
+                        11107 = { bunker = 10 }
+                        11143 = { bunker = 10 }
+                        11168 = { bunker = 10 }
+                        11177 = { bunker = 10 }
+                        11180 = { bunker = 10 }
+                        11189 = { bunker = 10 }
+                        11213 = { bunker = 10 }
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		23 60 75 81 84 106 129 135 143 160 163 166 174 196 2996 3056 3057 3079 3087 3091 3099 3124 3135 3154 3157 3160 3164 3175 6017 6073 6077 6091 6097 6112 6113 6119 6158 6180 6182 6189 6190 9043 9102 9110 9113 9131 9133 9136 9168 9199 9200 9202 9207 9210 9222 11027 11035 11036 11062 11075 11086 11095 11103 11107 11143 11168 11177 11180 11189 11213 
+	}
+}

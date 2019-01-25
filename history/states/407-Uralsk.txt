@@ -1,0 +1,62 @@
+
+state={
+	id=407
+	name="STATE_407"
+	manpower = 268572
+	
+	state_category = rural
+
+	history = { 1999.1.1 = { 
+			owner = BET
+			remove_core_of = BET
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+                        432 = { banker = 10 }
+                        468 = { banker = 10 } 
+470 = { bunker = 10 } 
+508 = { bunker = 10 } 
+545 = { bunker = 10 } 
+566 = { bunker = 10 } 
+576 = { bunker = 10 } 
+1318 = { bunker = 10 }
+3404 = { bunker = 10 } 
+3406 = { bunker = 10 } 
+3467 = { bunker = 10 } 
+3502 = { bunker = 10 }
+3515 = { bunker = 10 } 
+3538 = { bunker = 10 } 
+4351 = { bunker = 10 } 
+6491 = { bunker = 10 } 
+6525 = { bunker = 10 } 
+6551 = { bunker = 10 } 
+6564 = { bunker = 10 } 
+6588 = { bunker = 10 } 
+7438 = { bunker = 10 } 
+9462 = { bunker = 10 } 
+9487 = { bunker = 10 } 
+9513 = { bunker = 10 } 
+9526 = { bunker = 10 } 
+9528 = { bunker = 10 } 
+9538 = { bunker = 10 } 
+9549 = { bunker = 10 } 
+11457 = { bunker = 10 } 
+11472 = { bunker = 10 } 
+11473 = { bunker = 10 } 
+11480 = { bunker = 10 } 
+11482 = { bunker = 10 } 
+11510 = { bunker = 10 } 
+11524 = { bunker = 10 } 
+11537 = { bunker = 10 } 
+11538 = { bunker = 10 } 
+11552 = { bunker = 10 }
+		}
+		add_core_of = SOV
+		#add_core_of = KAZ
+	}
+
+	provinces={
+		432 468 470 508 545 566 576 1318 3404 3406 3467 3502 3515 3538 4351 6491 6525 6551 6564 6588 7438 9462 9487 9513 9526 9528 9538 9549 11457 11472 11473 11480 11482 11510 11524 11537 11538 11552 
+	}
+}

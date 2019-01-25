@@ -1,0 +1,27 @@
+state={
+	id=675
+	name="STATE_675"
+	manpower = 122093
+	
+	state_category = wasteland
+
+	history = { 1999.1.1 = { 
+			owner = BET
+			remove_core_of = BET
+		}
+		owner = IRQ
+		buildings = {
+			infrastructure = 1
+1631 = { bunker = 10 }  
+4951 = { bunker = 10 }  
+10744 = { bunker = 10 }  
+12413 = { bunker = 10 }  
+12879 = { bunker = 10 }  
+		}
+		add_core_of = IRQ
+	}
+	
+	provinces={
+		1631 4951 10744 12413 12879 
+	}
+}

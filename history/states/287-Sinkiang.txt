@@ -1,0 +1,38 @@
+state={
+	id=287
+	name="STATE_287"
+	manpower=408000000
+	state_category=city
+	buildings_max_level_factor = 10.000
+	
+	provinces={
+		4973 8042 8086 10885 10911 12864 
+	}
+	resources={
+		steel=20000
+                oil=20000
+                aluminium=20000
+                rubber=20000
+                tungsten=20000
+                chromium=20000
+	}
+
+	history={
+		owner = BET
+		add_core_of = BET
+		buildings = {
+			infrastructure = 10
+			arms_factory = 15
+			industrial_complex = 10
+                        4973 = { bunker = 10 }
+                        8042 = { bunker = 10 } 
+                        8086 = { bunker = 10 } 
+                        10885 = { bunker = 10 } 
+                        10911 = { bunker = 10 } 
+                        12864 = { bunker = 10 }
+                        		}
+		victory_points = {
+			8086 50
+		}
+	}
+}

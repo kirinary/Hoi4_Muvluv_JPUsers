@@ -1,0 +1,401 @@
+focus_tree = {
+	id = unitednations_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UNI
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 20 y = 1000 }
+	reset_on_civilwar = no
+
+	focus = {
+		id = UNI_support_japanese_defence
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 9
+		y = 0
+		#relative_position_id = 
+
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = { }
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = UNI_reconfirm_vancouver_agreement
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_support_japanese_defence
+
+		prerequisite = { focus = UNI_support_japanese_defence }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = { add_political_power = 300 }
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	focus = {
+		id = UNI_operation_bright_star
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_reconfirm_vancouver_agreement
+
+		prerequisite = { focus = UNI_reconfirm_vancouver_agreement }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			country_event = {
+				id = uni_event.1
+				hours = 1
+			}
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = UNI_G_bomb_threat
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_operation_bright_star
+
+		prerequisite = { focus = UNI_operation_bright_star }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = G_bomb_threat_opinion
+			}
+			reverse_add_opinion_modifier = {
+				target = USA
+				modifier = G_bomb_threat_opinion
+			}
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+	focus = {
+		id = UNI_prominence_project
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_G_bomb_threat
+
+		prerequisite = { focus = UNI_G_bomb_threat }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			country_event = {
+				id = uni_event.2
+				hours = 1
+			}
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+	focus = {
+		id = UNI_protect_refugees
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = -1
+		y = 1
+		relative_position_id = UNI_prominence_project
+
+		prerequisite = { focus = UNI_prominence_project}
+		mutually_exclusive = { focus = UNI_reinforce_security_forces }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 30
+
+		#select_effect = { }
+		completion_reward = {
+			remove_ideas = UNI_refugees_problem_0
+			add_timed_idea =  { 
+				idea = UNI_improve_refugee_camp
+				days = 180
+			}
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+	focus = {
+		id = UNI_reinforce_security_forces
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 1
+		y = 1
+		relative_position_id = UNI_prominence_project
+
+		prerequisite = { focus = UNI_prominence_project }
+		mutually_exclusive = { focus = UNI_protect_refugees  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			swap_ideas = {
+				add_idea = UNI_refugees_problem_1
+				remove_idea = UNI_refugees_problem_0
+			}
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+	focus = {
+		id = UNI_coscription_from_refugees
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_reinforce_security_forces
+
+		prerequisite = { focus = UNI_reinforce_security_forces }
+		#mutually_exclusive = {  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			add_manpower = 1000000
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+	focus = {
+		id = UNI_refugee_volunteers
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_coscription_from_refugees
+
+		prerequisite = { focus = UNI_coscription_from_refugees }
+		#mutually_exclusive = { }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = UNI_refugee_volunteers_idea
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = UNI_restore_prestige
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = -1
+		y = 1
+		relative_position_id = UNI_refugee_volunteers
+
+		prerequisite = {
+				focus = UNI_refugee_volunteers
+				focus = UNI_protect_refugees
+		}
+		
+		#mutually_exclusive = { }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			remove_ideas = UNI_low_influence
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = UNI_alternative_iv
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_restore_prestige
+
+		prerequisite = { focus = UNI_restore_prestige }
+		#mutually_exclusive = { }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			country_event = {
+				id = uni_event.3
+				hours = 1
+			}
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = UNI_emergency_security_council
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_alternative_iv
+
+		prerequisite = { focus = UNI_alternative_iv }
+		#mutually_exclusive = { }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+
+		#select_effect = { }
+		completion_reward = {
+			country_event = {
+				id = uni_event.4
+				hours = 1
+			}
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = UNI_final_restance_of_humans
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_emergency_security_council
+
+		prerequisite = { focus = UNI_emergency_security_council}
+		#mutually_exclusive = { }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+
+		#select_effect = { }
+		completion_reward = {
+			country_event = {
+				id = uni_event.5
+				hours = 1
+			}
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+}
+

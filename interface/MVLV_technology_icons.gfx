@@ -1,0 +1,24 @@
+spriteTypes = {	
+	############ WORK IN PROGRESS
+	
+	#####technology_icons#####
+	
+	SpriteType = {
+		name = "GFX_MVLV_test_tsf_medium"
+		texturefile = "gfx/interface/technologies/test_tsf.dds"
+	}
+	#####equipment icons######
+
+	SpriteType = {
+		name = "GFX_archetype_MVLV_tsf_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/test_tsf.dds"
+	}
+
+	### by countries ###
+
+	SpriteType = {
+		name = "GFX_VAT_mage_orb_medium"
+		texturefile = "gfx/interface/technologies/VAT_basic_orb.dds"
+	}
+
+}

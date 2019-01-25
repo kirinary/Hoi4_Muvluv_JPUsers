@@ -1,0 +1,28 @@
+
+state={
+	id=641
+	name="STATE_641"
+	manpower=105786
+	state_category = small_island
+
+	history={
+		1999.1.1 = {
+			owner = EUR
+			add_core_of = EUR
+		}
+		
+		
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			12148 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		10188 12148 
+	}
+}

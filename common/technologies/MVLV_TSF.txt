@@ -1,0 +1,51 @@
+technologies = {
+	
+	MVLV_test_tsf = { #
+		folder = {
+			name = MVLV_tsf_folder
+			position = { x = 0 y = 0 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+#		allow = {}
+#		allow_branch = {
+#			NOT = { tag = AFR }
+#		}
+		
+		research_cost = 2
+		start_year = 1970	
+
+#		path = {
+#			leads_to_tech = basic_tsf
+#			research_cost_coeff = 1
+#		}	
+#		path = {
+#			leads_to_tech = basic_heavy_tsf
+#			research_cost_coeff = 1
+#		}
+
+		
+		
+		enable_equipments = {
+			tsf_equipment_0
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_tsf"
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+}

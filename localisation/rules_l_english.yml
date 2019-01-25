@@ -1,0 +1,10 @@
+﻿l_english:
+ CAN_DECLARE_WAR_WITHOUT_WARGOAL_WHEN_IN_WAR:1 "主要国と戦争中の場合は、 戦争目標を持たずに隣国に宣戦布告することができます。 "
+ CAN_DECLARE_WAR_ON_SAME_IDEOLOGY:0 "戦争目標を持たずに同じイデオロギーの国家に宣戦することができます。 "
+ CAN_FORCE_GOVERNMENT:0 "他国政府に同じイデオロギーを強いることができます。 "
+ CAN_GUARANTEE_OTHER_IDEOLOGIES:0 "異なるイデオロギー国家に独立保障を与えることができます。 "
+ CAN_PUPPET:0 "傀儡国を作成可能です。 "
+ CAN_ONLY_JUSTIFY_WAR_ON_THREAT_COUNTRY:1 "国際緊張を発生させていない国に対する戦争目標を正当化できます。 "
+ CAN_BOOST_OTHER_IDEOLOGIES:0 "異なるイデオロギーを流行させることができます。 "
+ CAN_JOIN_FACTIONS:0 "陣営に参加することができます。 "
+ CAN_JOIN_FACTIONS_NOT_ALLOWED_DIPLOMACY:0 "$COUNTRY|NAME$は陣営に参加することができません。 "

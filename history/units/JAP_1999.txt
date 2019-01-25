@@ -1,0 +1,836 @@
+﻿division_template = {
+	name = "歩兵師団"
+	division_names_group = JAP_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "警備旅団"
+	division_names_group = JAP_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "戦術機師団"
+	division_names_group = JAP_INF_01
+	regiments = {
+		MVLV_test_tsf = { x = 0 y = 0 }
+		MVLV_test_tsf = { x = 0 y = 1 }
+		MVLV_test_tsf = { x = 0 y = 2 }
+		MVLV_test_tsf = { x = 1 y = 0 }
+		MVLV_test_tsf = { x = 1 y = 1 }
+		MVLV_test_tsf = { x = 1 y = 2 }
+		MVLV_test_tsf = { x = 2 y = 0 }
+		MVLV_test_tsf = { x = 2 y = 1 }
+		MVLV_test_tsf = { x = 2 y = 2 }
+
+	}
+	priority = 0
+}
+
+
+##### OOB #####
+units = {
+
+	#後方兵団
+	
+	division = {
+		name = "千島守備隊"
+		location = 1399 #Shumshu
+		division_template = "警備旅団"
+		start_experience_factor = 0.1
+	}
+	division = { # "第88師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 88
+		}
+		location = 1820 #Shisuka
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "大泊守備隊"
+		location = 12446 #Toyohara
+		division_template = "警備旅団"
+		start_experience_factor = 0.1
+	}
+	division = { # "第7師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 12421 #Asahigawa
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第77師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 77
+		}
+		location = 10444
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "大湊守備隊"
+		location = 9859 #Ominato Naval Base
+		division_template = "警備旅団"
+		start_experience_factor = 0.1
+		
+	}
+	division = { # "第57師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = 6994 #Aomori
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第2師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7169 #Sendai
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第13師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 7169
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = { # "第39師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = 4188
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = { # "第40師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 4184
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "沖縄守備隊"
+		location = 11932 #Naha
+		division_template = "警備旅団"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "硫黄島守備隊"
+		location = 13025 #Iwo Jima
+		division_template = "警備旅団"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "南鳥島守備隊"
+		location = 13026 #Marcus Island
+		division_template = "警備旅団"
+		start_experience_factor = 0.1
+	}
+	
+	# 第一線兵団
+	division = { # "第51師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
+		location = 4067
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第52師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 4067
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第53師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = 4067
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第21師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 4067
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第32師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 4067
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	
+	division = { # "第54師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
+		location = 4153
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第3師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4153
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第4師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4153
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第22師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 4153
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第34師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 4153
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	
+	division = { # "第55師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = 4122
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第56師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 56
+		}
+		location = 4122
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第6師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 4122
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第23師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 4122
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第35師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 4122
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	
+	division = { # "第19師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 4000
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第20師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 4000
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第9師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 4000
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第24師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 4000
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第36師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 4000
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	
+	division = { # "第11師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 11908
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第14師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 11908
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第1師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11908
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第25師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 11908
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第37師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 11908
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	
+	division = { # "第8師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1097
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第12師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 1097
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第5師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1097
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第26師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 1097
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第38師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = 1097
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = { # "第18師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 1097
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	
+	division = { # "第10師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 9998
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第16師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 9998
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第27師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 9998
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = { # "第31師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 9998
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = { # "第15師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 9998
+		division_template = "歩兵師団"
+		start_experience_factor = 0.3
+	}
+	division = { # "第33師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 9998
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	
+	
+	# 第二線兵団
+	
+	division = { # "第28師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 1113
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = { # "第29師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 993
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = { # "第30師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 1182
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = { # "禁衛師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 168
+		}
+		location = 1182
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+	division = { # "第17師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 1063
+		division_template = "歩兵師団"
+		start_experience_factor = 0.4
+	}
+
+#戦術機師団#
+
+division = { # "第17師団"
+		name = 戦術機師団
+		location = 4188
+		division_template = "歩兵師団"
+　　　　　　　　start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+
+
+ ####### 帝国聯合艦隊 #######
+ ##### 第一艦隊 #####
+	navy = {
+		name = "第一戦隊"
+		base = 9859
+		location = 9859  #Ominato
+		ship = { name = "IJN 紀伊" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 尾張" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 出雲" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+	}
+	navy = {
+		name = "第四戦隊" 
+		base = 9859
+		location = 9859  #Ominato
+		ship = { name = "IJN 金剛" definition = battleship equipment = { battleship_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 比叡" definition = battleship equipment = { battleship_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 榛名" definition = battleship equipment = { battleship_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 霧島" definition = battleship equipment = { battleship_2 = { amount = 1 owner = JAP } } }
+	}
+	navy = {
+		name = "第七戦隊" 
+		base = 9859
+		location = 9859  #Ominato
+		ship = { name = "IJN 最上" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 三隈" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 鈴谷" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 熊野" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+	}
+	navy = {
+		name = "第八戦隊" 
+		base = 9859
+		location = 9859  #Ominato
+		ship = { name = "IJN 青葉" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP　 } } }
+		ship = { name = "IJN 衣笠" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP　 } } }
+	}
+	navy = {
+		name = "第九戦隊" 
+		base = 9859
+		location = 9859  #Ominato
+		ship = { name = "IJN 球磨" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP　 } } }
+		ship = { name = "IJN 多摩" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP　 } } }
+	}
+	navy = {	
+		name = "第一水雷戦隊"
+		base = 9859
+		location = 9859  #Ominato
+		#Flagship
+		ship = { name = "IJN 阿武隈" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = JAP　} } }
+		#第一駆逐隊
+		ship = { name = "IJN 神風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 朝風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 春風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 松風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		#第六駆逐隊
+		ship = { name = "IJN 暁" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 響" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 雷" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 電" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		#第十一駆逐隊
+		ship = { name = "IJN 秋月" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 照月" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 涼月" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 初月" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+	}
+	navy = {	
+		name = "第四水雷戦隊"
+		base = 9859
+		location = 9859  #Ominato
+		#Flagship
+		ship = { name = "IJN 由良" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP　} } }
+		#第四駆逐隊
+		ship = { name = "IJN 野分" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 嵐" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 萩風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 舞風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		#第九駆逐隊
+		ship = { name = "IJN 朝雲" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 山雲" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 夏雲" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 峯雲" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		#第十五駆逐隊
+		ship = { name = "IJN 黒潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 親潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 早潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 夏潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+	}
+
+ ##### 第二艦隊 #####	
+	navy = {
+		name = "第二戦隊"
+		base = 11932
+		location = 12068　#taiwan
+		ship = { name = "IJN 信濃" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 美濃" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 加賀" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+	}
+	navy = {
+		name = "第五戦隊" 
+		base = 12068
+		location = 12068　#taiwan
+		ship = { name = "IJN 高雄" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 愛宕" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 鳥海" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 摩耶" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+	}
+	navy = {	
+		name = "第二水雷戦隊"
+		base = 12068
+		location = 12068　#taiwan
+		#Flagship
+		ship = { name = "IJN 神通" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP　} } }
+		#第二駆逐隊
+		ship = { name = "IJN 村雨" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 夕立" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 春雨" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 五月雨" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		#第七駆逐隊
+		ship = { name = "IJN 朧" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 曙" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 漣" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 潮" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		#第十二駆逐隊
+		ship = { name = "IJN 朝霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 夕霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 天霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 狭霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+	}
+	navy = {	
+		name = "第五水雷戦隊"
+		base = 12068
+		location = 12068　#taiwan
+		#Flagship
+		ship = { name = "IJN 夕張" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = JAP　} } }
+		#第十七駆逐隊
+		ship = { name = "IJN 浦風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 磯風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 浜風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 谷風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		#第十駆逐隊
+		ship = { name = "IJN 秋雲" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 夕雲" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 巻雲" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 風雲" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		#第十六駆逐隊
+		ship = { name = "IJN 初風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 雪風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 天津風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 時津風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+	}
+
+ ##### 第三艦隊 #####	
+	navy = {
+		name = "第三戦隊" 
+		base = 2489
+		location = 2489  #Track
+		ship = { name = "IJN 大和" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 武蔵" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+	}
+	navy = {
+		name = "第六戦隊" 
+		base = 2489
+		location = 2489  #Track
+		ship = { name = "IJN 妙高" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 那智" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 足柄" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 羽黒" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+	}
+	navy = {	
+		name = "第三水雷戦隊"
+		base = 2489
+		location = 2489  #Track
+		#Flagship
+		ship = { name = "IJN 川内" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP　} } }
+		#第三駆逐隊
+		ship = { name = "IJN 汐風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 帆風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		#第八駆逐隊
+		ship = { name = "IJN 朝潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 大潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 満潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 荒潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		#第十三駆逐隊
+		ship = { name = "IJN 若竹" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+		ship = { name = "IJN 呉竹" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "IJN 早苗" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+	}
+ 
+ ##### 第四艦隊 #####	
+    navy = {
+		name = "第一潜水戦隊" 
+		base = 1399
+		location = 1399  #Chisima
+		#第一潜水隊
+		ship = { name = "IJN 蒼龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 雲龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 白龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		#第三潜水隊
+		ship = { name = "IJN 剣龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 瑞龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 黒龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		#第五潜水隊
+		ship = { name = "IJN 神龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 脊龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 青龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+	}
+	navy = {
+		name = "第二潜水戦隊"
+		base = 11932
+		location = 11932  #Okinawa
+		#第二潜水隊
+		ship = { name = "IJN 昇龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 黄龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 猛龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		#第四潜水隊
+		ship = { name = "IJN 金龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 潜龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 飛龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		#第六潜水隊
+		ship = { name = "IJN 福龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 土龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "IJN 弩龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+	}
+}	
+
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+}

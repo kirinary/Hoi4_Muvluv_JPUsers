@@ -1,0 +1,59 @@
+
+state={
+	id=149
+	name="STATE_149" # Pohjanmaa
+	manpower = 811029
+	
+	state_category = town
+	
+	history = { 1999.1.1 = { 
+			owner = BET
+			remove_core_of = BET
+		}
+		owner = FIN
+		victory_points = {
+			3122 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			3122 = {
+				naval_base = 1
+                                banker = 10
+			}
+63 = { bunker = 10 } 
+66 = { bunker = 10 }
+82 = { bunker = 10 } 
+120 = { bunker = 10 } 
+132 = { bunker = 10 } 
+158 = { bunker = 10 } 
+195 = { bunker = 10 } 
+3119 = { bunker = 10 }  
+3172 = { bunker = 10 } 
+6013 = { bunker = 10 } 
+6081 = { bunker = 10 } 
+6138 = { bunker = 10 } 
+6141 = { bunker = 10 } 
+6198 = { bunker = 10 } 
+6212 = { bunker = 10 } 
+9038 = { bunker = 10 } 
+9156 = { bunker = 10 } 
+9166 = { bunker = 10 } 
+9219 = { bunker = 10 } 
+11033 = { bunker = 10 } 
+11041 = { bunker = 10 } 
+11065 = { bunker = 10 } 
+11081 = { bunker = 10 } 
+11121 = { bunker = 10 } 
+11126 = { bunker = 10 } 
+11132 = { bunker = 10 } 
+11144 = { bunker = 10 } 
+13113 = { bunker = 10 }
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		63 66 82 120 132 158 195 3119 3122 3172 6013 6081 6138 6141 6198 6212 9038 9156 9166 9219 11033 11041 11065 11081 11121 11126 11132 11144 13113 
+	}
+}

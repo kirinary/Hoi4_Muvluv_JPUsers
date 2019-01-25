@@ -1,0 +1,18 @@
+spriteTypes = {	
+	
+	############ WORK IN PROGRESS
+	
+	### mage ###
+	SpriteType = {
+		name = "GFX_unit_tsf_battalion_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/tsf_unit_icon.dds"
+		noOfFrames = 2
+	}
+
+	SpriteType = {
+		name = "GFX_unit_tsf_battalion_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/onmap_tsf_unit_icon.dds"
+		noOfFrames = 2
+	}
+
+}
