@@ -2,13 +2,21 @@
 state={
 	id=640
 	name="STATE_640" # Mandalay
-	manpower = 3944600
+	manpower = 3944600000
 	
 	state_category = town
 
+        resources={
+		steel=18000
+                oil=18000
+                aluminium=18000
+                rubber=18000
+                tungsten=18000
+                chromium=18000
+	}
+
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H17			remove_core_of = H17
 		}
 		owner = IND
 		add_core_of = IND

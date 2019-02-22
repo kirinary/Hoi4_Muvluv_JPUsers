@@ -2,14 +2,12 @@
 state={
 	id=33
 	name="STATE_33"
-	manpower = 636400
+	manpower = 636400000
 	
 	state_category = town
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H12			remove_core_of = H12		}
 		owner = FRA
 		
 		buildings = {

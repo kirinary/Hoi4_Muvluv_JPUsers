@@ -426,5 +426,43 @@ division = {
 		division_template = "欧州連合対BETA防衛師団"
 		start_experience_factor = 0.2
 }
+division = {
+		name = "欧州連合対BETA防衛師団"
+		location = 4159
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+}
+division = {
+		name = "欧州連合対BETA防衛師団"
+		location = 4159
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "欧州連合対BETA防衛師団"
+		location = 4159
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "欧州連合対BETA防衛師団"
+		location = 4159
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "欧州連合対BETA防衛師団"
+		location = 4159
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "欧州連合対BETA防衛師団"
+		location = 4159
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "欧州連合対BETA防衛師団"
+		location = 4159
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+}
+
 }
 	

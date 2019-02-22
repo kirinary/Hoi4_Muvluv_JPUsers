@@ -2,7 +2,7 @@
 state={
 	id=293
 	name="STATE_293"
-	manpower = 2489500
+	manpower = 2489500000
 	
 	state_category = rural
 	
@@ -10,9 +10,7 @@ state={
 		oil=1 # was: 1
 	}
 	history={ 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H09			remove_core_of = H09		}
 		owner = YEM
 		buildings = {
 			infrastructure = 3

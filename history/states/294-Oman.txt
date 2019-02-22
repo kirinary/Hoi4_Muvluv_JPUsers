@@ -2,7 +2,7 @@
 state={
 	id=294
 	name="STATE_294"
-	manpower = 369000
+	manpower = 369000000
 	
 	state_category = rural
 	
@@ -11,9 +11,8 @@ state={
 	}
 
 	history={ 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H09
+			remove_core_of = H09		}
 		owner = OMA
 		buildings = {
 			infrastructure = 2

@@ -11,9 +11,8 @@ state={
 
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H09			remove_core_of =
+ H09		}
 		owner = IRQ
 		buildings = {
 			infrastructure = 3

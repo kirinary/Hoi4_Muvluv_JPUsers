@@ -2,18 +2,21 @@
 state={
 	id=20
 	name="STATE_20" # Rhone
-	manpower = 2973200
+	manpower = 297320000
 	resources={
-		steel=60 # was: 128
-		aluminium=35 # was: 72
+		steel=10000
+                oil=10000
+                aluminium=10000
+                rubber=10000
+                tungsten=10000
+                chromium=10000
 	}
 
 	state_category = city
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H12
+			remove_core_of = H12		}
 		owner = FRA
 		victory_points = {
 			6613 10
@@ -23,6 +26,19 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 4
+                        641 = {bunker = 10}
+                        3650 = {bunker = 10}
+                        3770 = {bunker = 10} 
+                        6613 = {bunker = 10} 
+                        6639 = {bunker = 10} 
+                        6668 = {bunker = 10} 
+                        6786 = {bunker = 10} 
+                        9590 = {bunker = 10} 
+                        9728 = {bunker = 10} 
+                        9732 = {bunker = 10} 
+                        11593 = {bunker = 10} 
+                        11716 = {bunker = 10} 
+                        11794 = {bunker = 10} 
 		}
 		add_core_of = FRA
 		1939.1.1 = {

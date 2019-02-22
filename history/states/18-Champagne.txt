@@ -2,14 +2,12 @@
 state={
 	id=18
 	name="STATE_18"
-	manpower = 1370800
+	manpower = 137080000
 	
 	state_category = city
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H12			remove_core_of = H12		}
 		owner = FRA
 		victory_points = {
 			9490 5 

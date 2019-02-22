@@ -2,17 +2,9 @@
 state={
 	id=574
 	name="STATE_574" # Yakutsk
-	manpower = 908000000
+	manpower = 407866
 	
 	state_category = wasteland
-        resources={
-		steel=10000
-                oil=10000
-                aluminium=10000
-                rubber=10000
-                tungsten=10000
-                chromium=10000
-	}
 
 	history = { 1999.1.1 = { 
 			owner = H26
@@ -20,7 +12,7 @@ state={
 		}
 		owner = SOV
 		victory_points = {
-			10641 1
+			10641 50
 		}
 		buildings = {
 			infrastructure = 8

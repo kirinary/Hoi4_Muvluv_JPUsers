@@ -2,7 +2,7 @@
 state={
 	id=288
 	name="STATE_288"
-	manpower = 10722500
+	manpower = 107225000
 	
 	state_category = town
 	
@@ -11,9 +11,7 @@ state={
 	}
 
 	history={ 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H17			remove_core_of = H17		}
 		owner = IND
 		add_core_of = IND
 		victory_points = {
