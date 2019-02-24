@@ -6,9 +6,7 @@ state={
 	state_category = pastoral
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H09			remove_core_of = H09		}
 		owner = SAU
 		victory_points = {
 			12758 1 

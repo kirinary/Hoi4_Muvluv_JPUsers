@@ -1,14 +1,12 @@
 state={
 	id=670
 	name="STATE_670"
-	manpower = 1184000
+	manpower = 11840000
 	
 	state_category = pastoral
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H17			remove_core_of = H17		}
 		owner = FRA
 		add_core_of = LAO
 		buildings = {

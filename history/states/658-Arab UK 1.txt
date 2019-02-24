@@ -2,7 +2,7 @@
 state={
 	id=658
 	name="STATE_658"
-	manpower = 220000
+	manpower = 220000000
 	resources={
 		oil=5 # was: 6
 	}
@@ -11,8 +11,7 @@ state={
 
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H09			remove_core_of = H09
 		}
 		owner = ENG
 		victory_points = {

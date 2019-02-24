@@ -1,0 +1,585 @@
+capital = 675
+
+1999.1.1 = {
+	oob = "H09_1999"
+	
+	
+	set_stability =  1
+	set_war_support = 1
+
+	set_research_slots = 6
+}
+
+add_offsite_building = { type = arms_factory level = 500 }
+                                
+add_offsite_building = { type = industrial_complex level = 500 }
+
+
+
+set_stability =  1
+set_war_support = 1
+
+set_research_slots = 6
+
+add_ideas = {
+	state_shintoism
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+add_political_power = 2000    
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	marines  = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 0
+	basic_submarine = 0
+	early_destroyer = 0
+	early_light_cruiser = 0
+	basic_light_cruiser = 0
+	early_heavy_cruiser = 0
+	basic_heavy_cruiser = 0
+	early_battleship = 0
+	basic_battleship = 0
+	early_battlecruiser = 0
+	early_carrier = 0
+	basic_carrier = 0
+	transport = 1
+	trench_warfare = 1
+	base_strike = 1
+	synth_oil_experiments = 1
+}
+
+
+declare_war_on = {
+	target = AFR
+	type = annex_everything
+}
+declare_war_on = {
+	target = CAN
+	type = annex_everything
+}
+declare_war_on = {
+	target = CEA
+	type = annex_everything
+}
+declare_war_on = {
+	target = CHI
+	type = annex_everything
+}
+declare_war_on = {
+	target = EUR
+	type = annex_everything
+}
+declare_war_on = {
+	target = GEU
+	type = annex_everything
+}
+declare_war_on = {
+	target = JAP
+	type = annex_everything
+}
+declare_war_on = {
+	target = OSE
+	type = annex_everything
+}
+declare_war_on = {
+	target = SOA
+	type = annex_everything
+}
+declare_war_on = {
+	target = SOV
+	type = annex_everything
+}
+declare_war_on = {
+	target = UNI
+	type = annex_everything
+}
+declare_war_on = {
+	target = USA
+	type = annex_everything
+}
+1939.1.1 = {
+
+	add_political_power = 2000
+	
+	add_ideas = {
+	state_shintoism
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+    complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	
+	
+	oob = "H20_1999"
+	set_technology = {
+
+		#PLACEHOLDERS for vehicles
+		improved_submarine = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		improved_heavy_cruiser = 1
+		improved_carrier = 1
+		heavy_battleship = 1
+		cv_fighter1 = 1
+		fighter1 = 1
+		tactical_bomber1 = 1
+	
+		#doctrines
+		#air
+		force_rotation = 1
+		fighter_baiting = 1
+		low_echelon_support = 1
+		dispersed_fighting = 1
+
+		grand_battle_plan = 1
+		prepared_defense = 1
+		grand_assault = 1
+		carrier_primacy = 1
+		carrier_task_forces = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		concentrated_industry = 1
+		concentrated_industry2 = 1
+		concentrated_industry3 = 1
+	}
+}
+
+set_convoys = 800
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+			
+			banned = no
+		}
+
+		fascism = {
+			popularity = 100
+		}
+		
+		communism = {
+			popularity = 0
+			
+			banned = no
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+1939.1.1 = {
+
+        set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+			banned = no
+		}
+
+		fascism = {
+			popularity = 100
+		}
+		
+		communism = {
+			popularity = 0
+			banned = no
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+   }
+}
+
+######################LEADERS##############################################
+
+create_country_leader = {
+	name = "“ª”]‹‰"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "zunou.dds"
+	expire = "2040.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+	
+create_country_leader = {
+	name = "“ª”]‹‰"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "zunou.dds"
+	expire = "2040.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "“ª”]‹‰"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "zunou.dds"
+	expire = "2040.1.1"
+	ideology = centrism
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "“ª”]‹‰"
+	picture = "zunou.dds"
+	traits = { 
+		offensive_doctrine
+		
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_field_marshal = {
+	name = "—vÇ‹‰"
+	picture = "yousai.dds"
+	traits = { 
+		offensive_doctrine
+		
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "“ª”]‹‰"
+	picture = "zunou.dds"
+	traits = { 
+		offensive_doctrine
+		
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "•ºm‹‰"
+	picture = "heisi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2†•ºm‹‰"
+	picture = "heisi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3†•ºm‹‰"
+	picture = "heisi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Œõü‹‰"
+	picture = "kousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2†Œõü‹‰"
+	picture = "kousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3†Œõü‹‰"
+	picture = "kousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "íÔ‹‰"
+	picture = "sensya.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2†íÔ‹‰"
+	picture = "sensya.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3†íÔ‹‰"
+	picture = "sensya.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "“ËŒ‚‹‰"
+	picture = "totugeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2†“ËŒ‚‹‰"
+	picture = "totugeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+        planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3†“ËŒ‚‹‰"
+	picture = "totugeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "“¬m‹‰"
+	picture = "tousi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2†“¬m‹‰"
+	picture = "tousi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3†“¬m‹‰"
+	picture = "tousi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "—vŒ‚‹‰"
+	picture = "yougeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2†—vŒ‚‹‰"
+	picture = "yougeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3†—vŒ‚‹‰"
+	picture = "yougeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "dŒõü‹‰"
+	picture = "zyuukousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2†dŒõü‹‰"
+	picture = "zyuukousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3†dŒõü‹‰"
+	picture = "zyuukousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}

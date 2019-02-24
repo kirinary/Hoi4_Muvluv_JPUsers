@@ -2,14 +2,12 @@
 state={
 	id=454
 	name="STATE_454" #Palestine
-	manpower = 933142
+	manpower = 93314200
 	
 	state_category = rural
 
 	history={ 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H09			remove_core_of = H09		}
 		owner = ENG
 		buildings = {
 			infrastructure = 5

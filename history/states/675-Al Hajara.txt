@@ -1,14 +1,20 @@
 state={
 	id=675
 	name="STATE_675"
-	manpower = 122093
+	manpower = 12209300
 	
 	state_category = wasteland
+        resources={
+		steel=18000
+                oil=18000
+                aluminium=18000
+                rubber=18000
+                tungsten=18000
+                chromium=18000
+	}
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
-		}
+			owner = H09			remove_core_of = H09		}
 		owner = IRQ
 		buildings = {
 			infrastructure = 1

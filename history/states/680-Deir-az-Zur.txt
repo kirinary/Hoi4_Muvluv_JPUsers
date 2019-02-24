@@ -1,13 +1,12 @@
 state={
 	id=680
 	name="STATE_680"
-	manpower = 324110
+	manpower = 324110000
 	
 	state_category = wasteland
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H09			remove_core_of = H09
 		}
 		owner = FRA
 		buildings = {
